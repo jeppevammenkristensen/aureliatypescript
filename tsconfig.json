@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es6"
+    },
+    "filesGlob": [
+        "./views/**/*.ts",
+        "./*.ts"
+    ],
+    "files": [
+        "./views/View.ts",
+        "./views/supertest.ts",
+        "./app.ts"
+    ]
+}
